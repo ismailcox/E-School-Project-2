@@ -1,0 +1,1033 @@
+/* responsive css code goes here */
+
+/*
+ Most of the low resolution mobile devices like: Galaxi fold
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/*code start*/
+
+/**********************************
+ * E-School Code Start
+ * ********************************/
+
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .Logo{
+    width: 140px;
+}  
+.main-menu .bg-light{
+    background: transparent !important; 
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background: #fff;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    margin: 0px 0px -4px 24px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success {
+    padding: 5px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px 0px 7px;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 16px;
+    line-height: 26px;    
+}
+.banner h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-size: 11px;
+    line-height: 21px;
+}
+.banner .btn-success{
+    padding: 8px 10px;
+    border-radius: 25px;
+    font-size: 13px;
+    margin: 16px 0px 20px;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+}
+.feature{
+    width: 100%;
+    padding: 25px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 65px;
+    height: 75px;
+    margin: 0px 0px 15px;
+}
+.inner-feature h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.inner-feature p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+    width: 100%;
+    padding: 30px 0px;
+}
+.courses h2{
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 30px;
+}
+.courses .card{
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+    margin: opx opx 20px;
+}
+.courses .card .card-body{
+    padding: 15px opx;
+}
+.courses .card .card-body h5{
+    font-size: 16px;
+    line-height: 26px;
+}
+.courses .card .card-body p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 0px 0px 15px;
+}
+
+.courses .card .card-body .btn-success {
+    padding: 7px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin: 5px 0px 10px;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+
+}
+.courses .card .card-body .desc {
+    font-size: 8px;
+    line-height: 18px;
+    margin: 15px 0px 20px;
+}
+.courses .card .card-body .cln{
+    width: 14px;
+    margin: 0px 0px 0px
+}
+.courses .card .card-body .peo{
+    width: 14px;
+    margin: -5px 0px 0px    
+}
+.courses .text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 50px 0px;
+}
+.testimonial h2{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0px 0px 30px; 
+}
+.testimonial .img-round{
+    width: 65px;
+    height: 70px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size: 8px;
+    line-height: 15px;
+    margin: 4px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 50px 0px 15px;
+}
+.footer-widget{
+  width: 100%;  
+  padding: 0px 0px 50px;
+}
+.footer-widget p{
+    font-size:11px;
+    line-height: 21px;
+}
+.footer-widget h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px opx 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px 0px 2px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+/*code end*/
+}
+
+/*
+ Most of the  mobile devices
+*/
+@media (min-width: 320px) and (max-width: 480px){
+/*code start*/
+
+/**********************************
+ * E-School Code Start
+ * ********************************/
+
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .Logo{
+    width: 140px;
+}  
+.main-menu .bg-light{
+    background: transparent !important; 
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background: #fff;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    margin: 0px 0px -4px 24px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success {
+    padding: 5px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px 0px 7px;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 16px;
+    line-height: 26px;    
+}
+.banner h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.banner .btn-success{
+    padding: 8px 10px;
+    border-radius: 25px;
+    font-size: 13px;
+    margin: 16px 0px 20px;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+}
+.feature{
+    width: 100%;
+    padding: 25px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 65px;
+    height: 75px;
+    margin: 0px 0px 15px;
+}
+.inner-feature h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.inner-feature p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+    width: 100%;
+    padding: 30px 0px;
+}
+.courses h2{
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0px 0px 30px;
+}
+.courses .card{
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+    margin: opx opx 20px;
+}
+.courses .card .card-body{
+    padding: 15px opx;
+}
+.courses .card .card-body h5{
+    font-size: 16px;
+    line-height: 26px;
+}
+.courses .card .card-body p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 0px 0px 15px;
+}
+
+.courses .card .card-body .btn-success {
+    padding: 7px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin: 5px 0px 10px;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+
+}
+.courses .card .card-body .desc {
+    font-size: 10px;
+    line-height: 20px;
+    margin: 12px 0px 15px;
+}
+.courses .card .card-body .cln{
+    width: 17px;
+    margin: 0px 0px 0px
+}
+.courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px    
+}
+.courses .text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 50px 0px;
+}
+.testimonial h2{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0px 0px 30px; 
+}
+.testimonial .img-round{
+    width: 65px;
+    height: 70px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size: 10px;
+    line-height: 18px;
+    margin: 4px 0px 5px;
+}
+.footer{
+    width: 100%;
+    padding: 50px 0px 15px;
+}
+.footer-widget{
+  width: 100%;  
+  padding: 0px 0px 50px;
+}
+.footer-widget p{
+    font-size:11px;
+    line-height: 21px;
+}
+.footer-widget h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px opx 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px 0px 2px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+/*code end*/
+}
+
+/*
+ Most of the  mobile devices ,Low resolutions Tablet,Ipad.
+*/
+@media (min-width: 481px) and (max-width: 767px){
+/*code start*/
+ 
+ /**********************************
+ * E-School Code Start
+ * ********************************/
+
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .Logo{
+    width: 150px;
+}  
+.main-menu .bg-light{
+    background: transparent !important; 
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background: #fff;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success {
+    padding: 8px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 32px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #21B573 ;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FD511A;
+    
+    
+}
+.banner h1{
+    font-size:42px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #000;
+    margin:0px 0px 20px ;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.banner .btn-success{
+    padding: 12px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #000 ;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 78px;
+    height: 88px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #413960;
+    margin: 0px;
+}
+.inner-feature p{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.courses h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+}
+.courses .card{
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+    margin: opx opx 20px;
+}
+.courses .card .card-body{
+    padding: 15px opx;
+}
+.courses .card .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #413960;
+    margin: 0px;
+}
+.courses .card .card-body p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 0px 0px 15px;
+}
+
+.courses .card .card-body .btn-success {
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #21B573 ;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+
+}
+.courses .card .card-body .desc{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 20px 0px 0px;
+}
+.courses .card .card-body .cln{
+    width: 18px;
+    margin: -5px 0px 0px
+}
+.courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px    
+}
+.courses .text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #000;
+    margin: 0px 0px 50px;
+    text-align: center;  
+}
+.testimonial .img-round{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+    margin: 15px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 60px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+  width: 100%;  
+  padding: 0px 0px 80px;
+}
+.footer-widget p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff; 
+}
+.footer-widget h6{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px opx 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+    display: block;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #CDCDCD;
+    margin: 0px;
+}
+
+/*code end*/
+}
+
+/*
+ Most of the Ipad,mini Notebook,Tablet
+*/
+@media (min-width: 768px) and (max-width: 992px){
+/*code start*/
+
+/**********************************
+ * E-School Code Start
+ * ********************************/
+
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .Logo{
+    width: 150px;
+}  
+.main-menu .bg-light{
+    background: transparent !important; 
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background: #fff;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+    color: #000;
+    font-weight: 600;
+}
+.main-menu .btn-success {
+    padding: 8px 23px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 22px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #21B573 ;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FD511A;
+    
+    
+}
+.banner h1{
+    font-size:38px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #000;
+    margin:0px 0px 20px ;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.banner .btn-success{
+    padding: 12px 30px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #000 ;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 78px;
+    height: 88px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #413960;
+    margin: 0px;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #585859;
+    margin: 0px 0px 20px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.courses h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #413960;
+    margin: 0px 0px 50px;
+    text-align: center;
+}
+.courses .card{
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+    margin: opx opx 20px;
+}
+.courses .card .card-body{
+    padding: 15px opx;
+}
+.courses .card .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #413960;
+    margin: 0px;
+}
+.courses .card .card-body p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 0px 0px 15px;
+}
+
+.courses .card .card-body .btn-success {
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+    background: #21B573;
+    color: #fff;
+    border:1px solid #21B573 ;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border:1px solid #21B573 ;
+
+}
+.courses .card .card-body .desc{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #585859;
+    margin: 20px 0px 20px;
+}
+.courses .card .card-body .cln{
+    width: 18px;
+    margin: -5px 0px 0px
+}
+.courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px    
+}
+.courses .text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #000;
+    margin: 0px 0px 50px;
+    text-align: center;  
+}
+.testimonial .img-round{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+.testimonial p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+    margin: 15px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 60px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+  width: 100%;  
+  padding: 0px 0px 80px;
+}
+.footer-widget p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff; 
+}
+.footer-widget h6{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px opx 5px;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul a{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+    margin: 0px 0px 5px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #CDCDCD;
+    margin: 0px;
+}
+
+/*code end*/
+}
